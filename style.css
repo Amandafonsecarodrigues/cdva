@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.center {
+    max-width: 11000px;
+    margin: 0 auto;
+    padding: 0 2%;
+    height: auto;
+    display: flex;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 2px solid #f17435;
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    color: #D9522B;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.menu a:hover{
+    color: #F06224;
+}
+
+.botao{
+    background-color: #F06224;
+    display: inline-block;
+    padding: 20px 40px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 50;
+    margin: 10px;
+    border: none;
+} 
+
+.botao:hover{
+    background-color: #D9522B;
+}
+
+li {
+    display: inline;
+    padding: 10px;
+}
+
+.menu ul:not(.footer .container .side .lista) {
+    display: inline;
+    flex-direction: row;
+    padding-left: 800px;
+    padding-top: 100;
+    text-decoration: none;
+    float: right;
+}
+
+.logo {
+    width: 150px;
+    float: left;
+    padding-right: 120;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner-text {
+    margin: 170px;
+    padding: 0 90px;
+}
+
+.banner-text p{
+    margin: 18px;
+}
+
+section{
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 54px 0;
+    color: black;
+
+
+}
+
+.se-informe{
+   margin: 20px;
+}
+
+.se-informe .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.se-informe .se-informe-text{
+    width: 50%;
+    padding: 0 40px;
+    text-align: center;
+
+}
+.se-informe .se-informe-img {
+    width: 50%;
+    background-color: #D9522B;
+    float: right;
+}
+
+.se-informe .se-informe-text h2{
+    font-size: 50px;
+}
+
+.se-informe .se-informe-text p{
+    margin: 5px 0 18px 0 ;
+}
+
+.contato{
+    margin: 20px;
+    justify-content: space-between ;
+ }
+
+ .contato .container{
+     align-items: center;
+     margin: 20px;
+ }
+
+ .contato .form-text{
+    padding: 25px;
+     width: 50%;
+     text-align: center;
+     float: left;
+ }
+
+ .contato .contato-img {
+     width: 50%;
+     float: right;
+     padding: 100px;
+ }
+ 
+ /* form */
+ form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container input[type="submit"],
+  .form-container input[type="reset"] {
+    background-color: #f17435;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .form-container input:invalid,
+  .form-container textarea:invalid {
+    border-color: #dc3545;
+  }
+
+  /* form */
+
+  /* tabela */ 
+  table {
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffd8b1;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ffa07a;
+}
+
+thead th {
+  background-color: #ffa07a;
+  color: #fff;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ffe5b4;
+}
+
+/*tabela*/   
+
+  .footer{
+    background-color: #D9522B;
+    padding: 25px;
+    align-items: center;
+    margin: 1000 0 0px;
+    height: 150px;
+  }
+
+  .footer .container .horizontal{
+    width: 75%;
+    float: right;
+    margin: 1;
+  }
+
+  .footer .container .side .lista{
+    flex-direction: column;
+    display: flex;
+    float: left;
+    width: 25%;
+  }
+.matricula .container{
+    display: flex;
+    align-items: center;
+    background-color: #f17435;
+    padding: 70px;
+}
+
+
+  .matricula .matricula-texto{
+    width: 50%;
+    align-items: center;
+    padding: 26px;
+  }
+  .matricula .cointainer .matricula-texto p{
+    text-align: center;
+  }
+  .matricula .cointainer .matricula-texto h1{
+    text-align-last:  center ;
+  }
+  .matricula .matricula-img{
+    width: 50%;
+  }
+
+  .tabela .container{
+    display: flex;
+    justify-content: center;
+  }
+  .tabela {
+    padding: 60PX 0;
+
+  }
+  .tabela .container .tabelaofc{
+    width: 60%;
+  }
+
+  .secondpart{
+    width: 100%;
+  }
+  .secondpart .container{
+    display: flex;
+    justify-content: center;
+    background-color: #f17435;
+    margin: 50px 0;
+  }
+  .tabela .secondpart .requisitos{
+    width: 50%;
+    float: right;
+    padding: 10px;
+    margin: 35px 0px;
+}
+
+.secondpart .cointainer .img-req{
+    width: 50%;
+}
+
+.tabela .secondpart .requisitos ul{
+    flex-direction: column;
+    display: flex;
+}
+
+.encontrar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 39px;
+}
+.encontrar .cointainer .encontrar-text{
+    float: right;
+    padding: 10px;
+    margin: 35px 0px;
+    width: 50%;
+}
+.encontrar .cointainer .encontrar-img{
+    width: 50%;
+    padding: 25px;
+}
+
+.secondpart .requisitos ul{
+    flex-direction: column;
+    display: flex;
+}
